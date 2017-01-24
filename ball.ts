@@ -25,6 +25,7 @@ class Ball
         this.x += this.dx;
         this.y += this.dy;
         
+        // check f hit the left wall
         if(this.x < Ball.LEFT_BOUNDARY)
         {
             this.x = Ball.LEFT_BOUNDARY;

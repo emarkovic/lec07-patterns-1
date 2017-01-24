@@ -5,8 +5,12 @@
   "main": "index.ts",
   "scripts": {
     "start": "node build/index.js",
+    "doc": "typedoc --out docs ducks.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typedoc": "^0.5.5"
+  }
 }
